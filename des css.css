@@ -1,0 +1,105 @@
+
+body{
+	width:100%
+	height:100vh;
+	background: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url("87.jpg") no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	font-family:Freestyle Script;
+}
+
+.header{
+	width:1000px;
+	height:100px;
+
+
+
+}
+.logodiv{
+	width:166.66px;
+	height:80px;
+	float: left;
+	padding-right: 40px;
+
+}
+.comp{
+	width: 1500px;
+	height: 100px;
+	padding-left: 110px;
+	left: 2px;
+	top:2px;
+}
+.cols{
+	float:right;
+	font-size: 30px;
+	width:170px;
+	height: 100px;
+	color: white;
+	
+
+}
+
+.anchor{
+	text-decoration: none;
+	color:wheat ;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.anchor::after{
+	content: "";
+	height: 3px;
+	width: 0;
+	background: darkcyan;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+.anchor:hover::after{
+	width: 100%;
+}
+	
+.content{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: white;
+
+}
+.content h1{
+	font-size: 70px;
+
+}
+.content p{
+	margin: 20px auto;
+	font-weight: 100;
+	line-height: 25px;
+	font-size: 25px;
+}
+button{
+	width: 200px;
+	padding:15px 0;
+	text-align: center;
+	margin:20px 10px;
+	border-radius: 25px;
+	font-weight: bold;
+	border: 2px solid #009688;
+	color: #fff;
+	cursor:pointer;
+	background: transparent;
+	transition: 2s;
+
+}
+span{
+	
+	height: 100%;
+	width: 100%;
+	border-radius: 25px;
+}
+button:hover{
+	background: darkcyan;
+	color: white;
+}
